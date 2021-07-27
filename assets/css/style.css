@@ -462,11 +462,35 @@ Extra height css
 .m-top-120 {
     margin-top: 120px;
 }
+.m-top-130 {
+    margin-top: 130px;
+}
+.m-top-140 {
+    margin-top: 140px;
+}
 .m-top-150 {
     margin-top: 150px;
 }
+.m-top-160 {
+    margin-top: 160px;
+}
+.m-top-170 {
+    margin-top: 170px;
+}
 .m-top-180 {
     margin-top: 180px;
+}
+.m-top-200 {
+    margin-top: 200px;
+}
+.m-top-220 {
+    margin-top: 220px;
+}
+.m-top-310 {
+    margin-top: 310px;
+}
+.m-top-510 {
+    margin-top: 510px;
 }
 
 .m-t-b-80 {
@@ -1096,8 +1120,10 @@ Featured section style
 }
 
 
-/*service Section
-========================*/
+/*==================================================================
+renewal page 리뉴얼(러쉬)
+service Section
+================================================*/
 
 .slid_shap{
     height: 40px;
@@ -1112,9 +1138,11 @@ Featured section style
 
 .service_slid .service_slid_item{
     background-color: #fff;
-    padding: 70px 30px;
+    
 }
-
+.service_slid .service_slid_text img{
+    width: 100%;
+}
 .service_slid .service_slid_text span.icon{
     font-size:8rem;
 }
@@ -1125,7 +1153,7 @@ Featured section style
 .choose_mac .slick-arrow,
 .service_slid .slick-arrow{
     position: absolute;
-    top:40%;
+    top:50%;
     z-index: 1;
     border-radius: 50%;
     border:1px solid #ddd;
@@ -1138,13 +1166,46 @@ Featured section style
 }
 .choose_mac .nextprevleft,
 .service_slid .nextprevleft{
-    left:5%;
+    left:2%;
 }
 .choose_mac .nextprevright,
 .service_slid .nextprevright{
-    right:5%;
+    right:2%;
 }
-
+/*==================================================================
+반응형페이지 소개
+Choose Section
+==================================================================*/
+.choose_mac{
+    background: url(../images/macbook.png) no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 365px;
+}
+.choose_mac .choose_slide {
+    width: 76%;
+    margin: 0 auto;
+}
+.choose_mac .choose_item {
+    width:100%;
+    margin:0 auto;
+}
+.choose_mac .choose_item img{
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 15px;
+}
+.choose_item_text h6{
+    font-weight: 700;
+    font-size:16px;
+}
+.choose_item_text h6 i{
+    margin-right:10px;
+}
+.choose_item_text p{
+    margin-left: 27px;
+}
 
 /*
 tems Section style
@@ -1177,8 +1238,9 @@ tems Section style
     display:block;
     margin-bottom:15px;
     width:100%;
+    border-radius: 20px;
     background:#bdc3ca;
-    height:3px;
+    height:8px;
     -webkit-transition:0.4s linear;
     transition:0.4s linear;
     -webkit-transition-property:width, background-color;
@@ -1190,8 +1252,9 @@ tems Section style
     left:0;
 }
 .teamskillbar-bar {
-    height:3px;
+    height:8px;
     width:0px;
+    border-radius: 20px;
     background:#fddc57;
     position: absolute;
     left:0px;
@@ -1199,41 +1262,11 @@ tems Section style
 }
 
 
-/*Choose Section
-======================*/
-.choose_mac{
-    background: url(../images/choose-mokup.png) no-repeat;
-    background-size: cover;
-    width: 600px;
-    height: 365px;
-}
-.choose_mac .choose_slide {
-    width: 76%;
-    margin: 0 auto;
-}
-.choose_mac .choose_item {
-    width:100%;
-    margin:0 auto;
-}
-.choose_mac .choose_item img{
-    width: 100%;
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 15px;
-}
-.choose_item_text h6{
-    font-weight: 700;
-    font-size:16px;
-}
-.choose_item_text h6 i{
-    margin-right:10px;
-}
-.choose_item_text p{
-    margin-left: 27px;
-}
+
 
 
 /*========================================================================
+                My works 부분 
                 Portfolio Section Style
 ==========================================================================*/
 .portfolio{
