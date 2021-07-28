@@ -1,0 +1,66 @@
+.inner{width:1200px;margin:0 auto;}
+#wrap{width:100%;min-width:1200px;overflow:hidden}
+
+
+/*
+#pop_up .close span{display: block; width: 45px;height:3px; background-color:#ffffff;
+                    }
+버튼 X자 만드는것
+#pop_up .close span:nth-child(1){transform: rotate(45deg) translate(3px, 0px)}
+#pop_up .close span:nth-child(2){transform: rotate(-45deg)} 
+*/
+
+/*********************header****************************/
+
+
+#header::after{content: ''; display: block; clear: both;}
+#header .logo{float: left; }
+#header .logo img{width: 120px; height: 38px;}
+
+/*네비*/
+#header{position: relative; margin-bottom: 5px}
+#header #nav1 .inner{}
+#header #nav1{float: left; margin-left: 100px; margin-top: 25px;}
+#header #nav1 .depth1{}
+#header #nav1 .depth1 > li{float: left; margin: 0 53px;}
+#header #nav1 .depth1 > li >a{ display: block; text-align: center;width: 100%;
+                            color: #000; line-height: 2em; font-weight: 500;
+                            transition: background-color 1.3s;}
+#header #nav1 .depth1 > li >a:hover{color: #6649d7; }
+#header #nav1 .depth1 > li:nth-child(2) > a{color: #6649d7; } /*러쉬소개부분*/
+#header #nav1 .depth2{width: 100%; background-color: #000; 
+                    position: absolute; left: 0;top:65px; box-sizing: border-box;
+                    display: none; z-index: 9999999; text-align: center; }
+#header #nav1 .depth1 > li:hover .depth2{display: block;  }
+#header #nav1 .depth2 li{display: inline-block; box-sizing: border-box; padding: 10px 25px; }
+#header #nav1 .depth2::after{content: ''; display: block; clear: both;}
+
+#header .top{float: right; position: relative; margin-top: 25px}
+#header .top button{width: 30px; height: 30px; background:none; border: none; outline: 0;}
+#header .top button.search{background: url(../image/ico_search2_off.png) no-repeat center;}
+#header .top button.gnbBucket{background: url(../image/ico_gnbBucket.png) no-repeat center;}
+#header .top button.login{background: url(../image/ico_gnbMore.png) no-repeat center;}
+#header .top button.login.on{background: url(../image/ico_gnbMore_on.png) no-repeat center;}
+#header .top div{width: 150px; height: 300px; background-color: #aff;
+                 box-shadow: 3px 3px 3px #ccc; position: absolute; left: 0; top:30px;
+                 display: none; z-index: 99999;}
+
+
+
+
+/*********************footer****************************/
+#footer{ background-color: #000; padding: 50px 0;}
+#footer .logo{float: left; }
+#footer .logo img{width: 80%; height: 50%}
+#footer .footer_nav{float: right; margin-left: 10px; display: block; margin-top: 30px}
+#footer .footer_nav a{color: #fff; margin-left: 70px;}
+#footer .footer_sub{clear: both;}
+#footer .sub_left{ float: left;font-size: 0.9em; margin-top: 50px}
+#footer .sub_left span{font-weight: 500; color: rgba(255,255,255,0.9)}
+#footer .sub_left p{color: #999}
+#footer .sub_left p:nth-child(2){margin-bottom: 15px;}
+#footer .sub_left p:nth-child(4){margin-bottom: 15px;}
+#footer .sub_right{float: left;font-size: 0.9em;margin-top: 50px; margin-left: 180px;}
+#footer .sub_right p{line-height: 25px;}
+#footer .sub_right p:nth-child(4){margin-top: 45px}
+#footer:after{content: ''; display: block; clear: both}

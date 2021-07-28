@@ -1,0 +1,53 @@
+/*러쉬소개 서브페이지*/
+.inner{width:1200px;margin:0 auto;}
+#wrap{width:100%;min-width:1200px;overflow:hidden}
+
+/*섹션2*/
+#sec2{padding-top: 30px}
+#sec2 img{width: 61px; height: 44px; display: block; align: center; 
+            margin-left: auto; margin-right: auto; padding: 60px 0;}
+#sec2 p{text-align: center; color: #333; font-size: 1.7em; line-height: 48px}
+
+/*섹션3*/
+#sec3{padding: 90px 0; position: relative;}
+#sec3 .inner div{float: left; }
+#sec3 .cont_img{float: left; width: 50%;}
+#sec3 img{width:  100%}
+#sec3 .cont_txt{float: left; width: 50%; }
+#sec3 .cont_txt p{margin-left: 20px;}
+#sec3 .main_txt{font-size: 2.5em; margin-bottom: 50px; color: #bb3f38}
+#sec3 .sub_txt{color: #333333; font-size: 1.3em;bottom: 0}
+#sec3 .sub_txt span{font-weight: bold}
+#sec3:after{content: ''; display: block; clear: both}
+
+/*섹션4*/
+#sec4{padding: 90px 0;}
+#sec4 .inner div{float: left}
+#sec4 .cont_img{float: left; width: 50%;}
+#sec4 img{width:  100%}
+#sec4 .cont_txt{float: left; width: 50%;}
+#sec4 .main_txt{font-size: 2.5em; margin-bottom: 50px; color: #858a16}
+#sec4 .sub_txt{color: #333333;font-size: 1.3em; }
+#sec4 .sub_txt span{font-weight: bold}
+#sec4:after{content: ''; display: block; clear: both}
+
+/*섹션5*/
+#sec5{padding: 90px 0;}
+#sec5 .inner div{float: left}
+#sec5 .cont_img{float: left; width: 50%;}
+#sec5 img{width:  100%}
+#sec5 .cont_txt{float: left; width: 50%;}
+#sec5 .cont_txt p{margin-left: 20px;}
+#sec5 .main_txt{font-size: 2.5em; margin-bottom: 50px; color: #0250b9}
+#sec5 .sub_txt{color: #333333; font-size: 1.3em;}
+#sec5 .sub_txt span{font-weight: bold}
+#sec5:after{content: ''; display: block; clear: both}
+
+/*섹션6*/
+#sec6{padding-bottom: 100px; padding-top: 30px}
+#sec6 button{border: solid 2px #777; background-color: transparent; display: block;
+            margin: 0 auto; cursor: pointer;}
+#sec6 button p{margin: 25px 35px; text-align: center; font-size: 1.2em; color: #555;
+                font-weight: 600; letter-spacing: 1px; }
+#sec6 button:hover{background-color: #6649d7;transition: all 1s ease-in-out; border: solid 2px #fff;}
+#sec6 button:hover p{color: #fff; }
