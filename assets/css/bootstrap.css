@@ -1329,7 +1329,7 @@ mark,
   text-transform: lowercase;
 }
 .text-uppercase {
-  text-transform: uppercase;
+ 
 }
 .text-capitalize {
   text-transform: capitalize;
